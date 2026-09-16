@@ -1,0 +1,19 @@
+application:
+  subdomain: kindleear
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://kindleear:8000/
+
+services:
+  kindleear:
+    # upstream: kindleear/kindleear:3.4.1
+    image: kindleear/kindleear:3.4.1
+    environment:
+      - APP_ID=kindleear
+      - APP_DOMAIN=https://${LAZYCAT_APP_DOMAIN}
+      - TZ=Etc/GMT+8
+    binds:
+      - /lzcapp/var/data:/data

@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.kindleear
+version: 3.4.1
+name: KindleEar
+description: "Aggregates RSS and web content (Calibre recipe), sends to Kindle, and includes an e-ink optimized online reader."
+min_os_version: "1.5.0"
+homepage: https://github.com/cdhigh/KindleEar
+author: cdhigh
+locales:
+  zh:
+    name: KindleEar
+    description: "聚合 RSS 与网页内容（Calibre 订阅源），推送至 Kindle，并内置墨水屏优化的在线阅读器。"
+  en:
+    name: KindleEar
+    description: "Aggregates RSS and web content (Calibre recipe), sends to Kindle, and includes an e-ink optimized online reader."
