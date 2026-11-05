@@ -1,6 +1,6 @@
 package: cloud.lazycat.app.kindleear
 license: MIT
-version: 3.5.1
+version: 3.5.3
 name: KindleEar
 description: "Aggregates RSS and web content (Calibre recipe), sends to Kindle, and includes an e-ink optimized online reader."
 min_os_version: "1.5.0"

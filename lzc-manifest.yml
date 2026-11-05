@@ -8,8 +8,8 @@ application:
       backend: http://kindleear:8000/
 services:
   kindleear:
-    # upstream: kindleear/kindleear:3.5.1
-    image: registry.lazycat.cloud/czyt/kindleear/kindleear:34c033e010a5077d
+    # upstream: kindleear/kindleear:3.5.3
+    image: registry.lazycat.cloud/czyt/kindleear/kindleear:e9d5a3a5fea3d8a1
     environment:
       - APP_ID=kindleear
       - APP_DOMAIN=https://${LAZYCAT_APP_DOMAIN}
